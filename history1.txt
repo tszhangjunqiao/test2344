@@ -1,0 +1,1000 @@
+ll
+clear
+ll
+vim test.sh 
+clear
+echo "hello\n\n"
+echo -e "hello\n\n"
+echo -n "hello\n\n"
+clear
+vim testfile 
+clear
+ls
+clear
+ls
+clear
+cd /
+ls
+cd /home/
+ls
+cd shellwork/
+ls
+cclear
+clear
+ls
+clear
+xargs --help
+clar
+clear
+ll
+cd ..
+ls
+rm -rf shellwork/
+ls
+clear
+cd /s
+cd shellwork/
+ls
+cat testfile 
+vim testfile 
+cat testfile 
+ls
+vim testfile 
+rm -rf testfile 
+ls
+vim test.sh
+ll
+chmod test.sh 
+chmod 744 test.sh 
+ll
+./test.sh 1 2
+clear
+vim test.sh 
+ls
+touch 1.txt
+touch 2.txt 3.txt
+ls
+clear
+vim test.sh 
+ls
+clear
+ls
+vim test.sh 
+ll
+mv test.bak test.sh
+ks
+ll
+clear
+vim test.sh 
+ll
+rm -rf ./*.bak
+ls
+clear
+ll
+clear
+ll
+clear
+ls
+rm -rf ./*.bak
+ls
+vim test.sh 
+ll
+ls
+clear
+ll
+
+touch file1.txt file2.txt
+vim test.sh 
+ll
+vim test.sh 
+ll
+rm -rf files.bak/
+ll
+mkdir files
+ll
+mv file1.txt file2.txt files/
+ls
+clear
+ll
+cd files/
+ls
+cd ..
+ls
+vim test.sh 
+ll
+vim test.sh 
+clear
+ls
+cd files/
+ls
+cd ..
+ls
+rm -rf files/
+ls
+clear
+cd /home/shellwork
+clear
+ll
+clear
+ls
+rm -rf testfor.sh 
+ls
+clear
+ll
+clear
+./test.sh 
+clear
+./test.sh 
+clear
+./test.sh 
+clear
+./test.sh 
+clear
+./test.sh 
+clear
+ll
+clear
+./test.sh 
+clear
+./test.sh 1 2
+clear
+./test.sh 1 2
+clear
+./test.sh 
+clear
+./test.sh /hh
+ll
+ls
+cd ..
+ls
+cat shell
+cat shelltest 
+rm -rf shelltest 
+ls
+clear
+ll
+clear
+./test.sh asd
+clear
+ls
+./test.sh /home/shellwork
+cd ..
+clear
+cd /home/
+ls
+cd shellwork/
+ls
+./test.sh adad
+cd ..
+ls
+rm -rf shelltest 
+ls
+cd shellwork/
+ls
+clear
+ls
+rm -rf adad/
+cd /
+ll
+ls
+rm -rf hh/
+ls
+clear
+cd /home/
+cd shellwork/
+ls
+./test.sh /home/shellwork/
+ls
+cd ..
+ls
+cd shellwork/
+ls
+vim file.sh
+chmod 744 file.sh 
+ll
+./file.sh 
+clear
+ll
+rm -rf file.sh 
+ls
+clear
+sh -x ./test.sh 
+sh -n ./test.sh 
+vim testfile
+egrep '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' testfile
+ls
+vim test
+vim testfile 
+rm -rf testfile 
+ls
+clear
+vim testfile
+clear
+ll
+clear
+ll
+clear
+grep "test" testfile 
+grep "[a-z]\{5\}" test
+grep "[a-z]\{5\}" testfile 
+grep "[a-z]5" testfile 
+grep "[a-z]{5}" testfile 
+clear
+grep -e "[a-z]{5}" testfile 
+grep -E "[a-z]{5}" testfile 
+vim testfile 
+grep -E "[0-9]{0,3}\.[0-9]{0,3}\.[0-9]{0,3}\.[0-9]{0,3}" testfile 
+clear
+grep -E "[0-9]{0,3}\.[0-9]{0,3}\.[0-9]{0,3}\.[0-9]{0,3}" testfile 
+clear
+ls
+grep -E "[0-9]{0,3}\.[0-9]{0,3}\.[0-9]{0,3}\.[0-9]{0,3}" testfile 
+grep -E "[0-9]{0,3}\.[0-9]{0,3}\.[0-9]{0,3}\.[0-9]{0,3}" -c testfile 
+grep -E "[0-9]{0,3}\.[0-9]{0,3}\.[0-9]{0,3}\.[0-9]{0,3}" -h testfile 
+grep -E "[0-9]{0,3}\.[0-9]{0,3}\.[0-9]{0,3}\.[0-9]{0,3}" -v testfile 
+clear
+ls
+clear
+man find
+find --help
+clear
+find -admin 1
+find -amin 1
+find -amin 10
+find -cmin 1
+find -cmin 100
+find -cmin 200
+clear
+find $HOME -print
+clear
+find ~ -print
+clear
+find /home/shellwork/ -print
+cd /var/
+ls
+cd log/
+ls
+cd ..
+ls
+clear
+find /var/log/ -mtime 7
+cd /home/
+ls
+cd shellwork/
+find . -type f -exec ls {} \;
+cd ..
+ls
+find . -type f -exec ls {} \;
+clear
+find --help
+cd shellwork/
+ls
+find . -type f -exec ls;
+find . -type f -exec ls {} \;
+find . -type f -exec rm {} \;
+ls
+vim test.sh
+ls
+touch test.sh
+touch testfile
+ls
+clear
+find . -type f -exec rm {testfile} \;
+find . -type f -exec rm { } \;
+find . -type f -exec rm testfile  \;
+ls
+touch testfile
+ls
+find . -type f -exec rm testfile \;
+ls
+touch file
+ls
+find . -type f -exec rm {} \;
+ls
+clear
+find /var/log/ -type f -exec -print -mtime +7
+find /var/log/ -type f -print -mtime +7
+cat /var/log/sa/sar07
+clear
+find /var/log/ -type f -print -mtime 7
+find /var/log/ -type f -print -mtime 15
+clear
+find /var/log/ -type f -print -mtime 15
+find /var/log/ -type f -print -mtime 15 -ok rm {} \;
+clear
+find /var/log/ -type f -mtime 15 -ok rm {} \;
+find /var/log/ -type f -print -mtime 15;
+find /var/log/ -type f -print -mtime +7;
+clear
+find /var/log/ -type f -print -mtime +7;
+clear
+find . type f -perm 644 -exec ls {} \;
+find . -type f -perm 644 -exec ls {} \;
+ls
+vim test.sh
+chmod 644 test.sh 
+clear
+ll
+chmod 644 test.sh 
+ls
+chmod 744 test.sh 
+ls
+clear
+find . -type f -perm 744 -exec ls {} \;
+find . -type f -perm 644 -exec ls {} \;
+find . -type f -perm 744 -exec ls {} \;
+clear
+ls
+find . -group root -print
+find . -group root -exec ls {} \;
+ll
+cd ..
+ls
+cd gowork/l
+cd gowork/
+ls
+cd src/
+ls
+cd wing/
+ls
+find . -type f | sort
+clear
+find . -type f -print | xargs file
+clear
+ls
+clear
+ls
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+clear
+cd ./
+cd ..
+ls
+cd shellwork/
+ls
+clear
+ls
+clear
+ls
+clear
+find / -type f -size 0 exec ls {} \;
+find / -type f -size 0 -exec ls {} \;
+clear
+find /home -type f -size 0 -exec ls {} \;
+find /home/gowork/src/ -type f -size 0 -exec ls {} \;
+clear
+find /home/gowork/src/ -type f -size 0 -exec ls {} \;
+find . -type f -print | xargs file
+clear
+find . -type f -print | xargs file
+find -name "*.c" -type f -print -mtime +10
+find / -name "*.c" -type f -print -mtime +10
+clear
+find / -name "*.cpp" -type f -print -mtime +10
+clear
+ll
+cd ..
+ls
+cd gowork/
+ls
+cd src/
+ls
+find . -mount -print
+clear
+find . -depth -print
+clear
+sed version
+sed -e verion
+sed -e
+clear
+sed --verison
+clear
+sed --version
+ls
+cd ..
+ls
+cd ..
+ls
+mkdir shellwork
+ls
+cd shellwork/
+ls
+clear
+ls
+vim testfile
+ls
+clear
+ls
+cat testfile 
+sed "asd" testfile 
+sed "/asd/p" testfile 
+clear
+cat testfile 
+sed -n "/asd/p" testfile 
+sed "/asd/p" testfile 
+sed -n "/asd/p" testfile 
+sed "/asd/p" testfile 
+cat testfile 
+sed '/asd/p' testfile 
+cat testfile 
+clear
+sed "/asd/d" testfile 
+cat testfile 
+vim testfile 
+ls
+cat testfile 
+sed "/asd/s/as/hhhh" testfile 
+sed "s/asd/as/hhhh" testfile 
+sed "s/as/hhhh" testfile 
+clear
+cat testfile 
+clear
+cat testfile 
+sed -n "123/p" testfile 
+sed -n "/123/p" testfile 
+vim testfile 
+clear
+sed "/abc/p" testfile 
+sed "s/bc/-$-/" testfile 
+cat testfile 
+sed "s/bc/-&-/" testfile 
+sed "s/123/--/" testfile 
+sed "s/23/--/" testfile 
+vim testfile 
+sed "s/23/--/" testfile 
+sed "s/23/-&-/" testfile 
+sed -r "s/[0-9][0-9]/-1-~2~/
+sed -r "s/[0-9][0-9]/-1-~2~/" testfile 
+sed -r "/123/s/[0-9][0-9]/-1-~2~/" testfile 
+sed -r "/123/s/[0-9]/-1-~2~/" testfile 
+sed -r "/123/s/[0-9]/-1-~2~/g" testfile 
+sed -r "/123/s/12/-1-~2~/g" testfile 
+clear
+vim testfile 
+sed "s/<.*>/"
+sed "s/<.*>//"
+sed "s/<.*>//" testfile 
+sed "s/<.*>//g" testfile 
+sed "s/<.*>/" testfile 
+sed "s/<.*>/a" testfile 
+sed 's/<.*>//g' testfile
+clear
+sed 's/<.*>//g' testfile 
+sed 's/<.*>/a' testfile 
+sed 's/<.*?>/' testfile 
+grep testfile "<html>"
+clear
+grep "<html>" testfile 
+clear
+grep "<.*>" testfile 
+sed "s/<.*>/" testfile 
+sed "s/<.*>//" testfile 
+sed "s/<.*>//g" testfile 
+sed "s/<.*>/" testfile 
+clear
+sed "s/<.*>//" testfile 
+sed "s/Hello/hh" testfile 
+sed 's/Hello/hh' testfile 
+clear
+ls
+clear
+sed 's/<.*>//g' testfile
+sed 's/<*[a-z]*>//g' testfile
+sed 's/<*[a-z]*>/' testfile
+sed 's/<*[a-z]*>//' testfile
+sed 's/<*[a-z]*>//g' testfile
+clear
+sed 's/<*[a-z]*>//g' testfile
+sed 's/<*>//g' testfile
+sed 's/<[a-z>//g' testfile
+sed 's/<[a-z]>//g' testfile
+clear
+sed 's/<[a-z]>//g' testfile
+sed 's/</*[a-z]>//g' testfile
+sed 's/<html>//g' testfile
+sed -r 's/</*[a-z]>//g' testfile
+sed 's/<\/*[a-z]>//g' testfile
+sed 's/<\/*[a-z]*>//g' testfile
+clear
+ll
+awk '{print $2;}' testfile 
+awk '{print $2}' testfile 
+awk "{print $2}" testfile 
+awk '{print $2}' testfile 
+clear
+awk '$2<75 {print "%s\t%s\n",$0,"REORDER";} $2>=75 {print $0;}' testfile 
+awk '$2<75 {print "%s",$0,"REORDER";} $2>=75 {print $0;}' testfile 
+awk '$2<75 {print "$0,"REORDER";} $2>=75 {print $0;}' testfile 
+awk '$2<75 {print $0,"REORDER";} $2>=75 {print $0;}' testfile 
+awk '$2<75 {printf "%s\t%s\n", $0, "REORDER";} $2>=75 {print $0;}' testfile
+clear
+ls
+clear
+ll
+./test.sh 
+clear
+./test.sh 1 2
+./test.sh 
+clear
+./test.sh 
+clear
+./test.sh 
+ll
+cldar
+clear
+./test.sh 
+find . -type f -perm 744 -user root -print
+ll
+clear
+find . -type f -perm 744 -user root -print | wc -l
+clear
+echo 'root's bins:"find . -type f -perm 744 -user root -print | wc -l"'
+clear
+./test.sh 
+grep sshd
+clear
+ps -ef | grep sshd
+ps -ef | grep ssh
+ps -ef | grep sshd
+clear
+ps -ef | grep sshd
+netstat -anp | grep sshd
+clear
+netstat -anp | grep sshd
+#! /bin/bash
+netstat -apn | grep sshd | sed -n 's/.*:::\([0-9]*\)\ .* \ \([0-9]*\)\/sshd/\1 \2/p'
+#过于复杂
+netstat -apn | grep sshd | sed -n 's/.*:::\([0-9]*\)\ .* \ \([0-9]*\)\/sshd/\1 \2/p'
+clear
+netstat -apn | grep sshd | sed -n 's/.*:::\([0-9]*\)\ .* \ \([0-9]*\)\/sshd/\1 \2/p'
+netstat -anp | grep sshd | sed -n ‘s/.*:::\([0-9]*\)\ .* \ \([0-9]*\)\/sshd/\1 \2/p’
+netstat -anp | grep sshd | sed -n 's/.*:::\([0-9]*\)\ .* \ \([0-9]*\)\/sshd/\1 \2/p'
+netstat -anp | grep sshd
+netstat -anp | grep sshd | sed -n
+netstat -anp | grep sshd | sed -n 's/.*:::\([0-9]*\)\ .* \ \([0-9]*\)\/sshd/\1 \2/p'
+netstat -anp | grep sshd
+netstat -anp | grep sshd | awk {print $2}
+netstat -anp | grep sshd | awk {print $2;}
+netstat -anp | grep sshd 
+clear
+ls
+vim /etc/profile
+echo # go
+export GOROOT=/usr/local/go
+export GOPATH=/home/gowork
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin:$GOBIN
+ls
+clear
+ll
+clear
+cd /etc/docker/
+ls
+cat daemon.json 
+clear
+vim /etc/profile
+go version
+cd /etc/
+ls
+ls | grep "profile"
+vim /etc/profile
+docker images
+docker run -it --rm  -p 8083:8083 -p 8084:8084 -p 8085:8085 -p 8086:8086  becivells/goblin-demo-flash
+curl http://127.0.0.1:8084
+ls
+cd ..
+ls
+cd ~
+ls
+cat goblin.yaml 
+clear
+ls
+vim goblin.yaml 
+docker ps -a
+docker stop 7a5e4f73c883
+clear
+ls
+vim goblin.yaml 
+docker ps -a
+docker images
+vim /etc/profile
+ls
+vim goblin.yaml 
+docker run -it --rm -v $(pwd):/goblin/ -p 8084:8084 becivells/goblin
+docker run -it --rm  -p 8083:8083 -p 8084:8084 -p 8085:8085 -p 8086:8086  becivells/goblin-demo-flash
+cldear
+cd /home/gowork/src/goblin-demo/goblin-demo-flash
+ls
+vim Dockerfile 
+ls
+cd static/
+ls
+cat alert.html 
+cd ..
+ls
+vim goblin.yaml 
+clear
+ls
+cat goblin.log 
+clear
+ll
+vim goblin.yaml 
+ls
+cat goblin.log 
+clear
+cd ~
+docker ps -a
+docker images
+curl http://127.0.0.1:8083
+curl http://127.0.0.1:8083
+ip addr
+curl http://172.18.242.24:8083
+curl http://127.0.0.1:8083
+clear
+curl http://127.0.0.1:8083
+clear
+curl http://localhost:8083
+clear
+curl http://127.0.0.1:8084
+clear
+curl http://127.0.0.1:8085
+clear
+curl http://127.0.0.1:8083
+clear
+docker run -it --rm -v $(pwd):/goblin/ -p 8084:8084 becivells/goblin
+docker images
+docker ps -a
+docker stop 93978fc55b74
+docker ps -a
+docker run -it --rm -v $(pwd):/goblin/ -p 8084:8084 becivells/goblin
+clear
+ls
+cd plugins/
+ls
+vim demo.yaml 
+ls
+cd ..
+ls
+cd static/
+ls
+cat index.html 
+cd ..
+ls
+vim goblin.yaml 
+ll
+cat goblin.yaml 
+ls
+clear
+docker ps -a
+docker images
+cd /home/gowork/src/
+ls
+git clone https://github.com/xiecat/goblin.git
+clear
+git clone https://github.com/xiecat/goblin.git
+ls
+cd goblin/
+ls
+cd ..
+ls
+git clone https://github.com/xiecat/goblin-demo.git
+ls
+clear
+ll
+cd goblin-demo/
+ls
+cd goblin-demo-flash/
+ls
+vim goblin
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+cd goblin
+ls
+cd ..
+clear
+ls
+cd goblin-demo/
+ls
+cd goblin-demo-flash/
+ls
+vim Dockerfile 
+ll
+vim goblin.yaml 
+ls
+vim goblin.yaml 
+ls
+./goblin 
+clear
+ls
+cd ..
+ls
+./goblin
+clear
+ls
+cd goblin-demo-flash/
+ls
+cd plugins/
+ls
+vim static.flash.yaml 
+ls
+clear
+ls
+cd ..
+ls
+cd static/
+ls
+ll
+cler
+clear
+ls
+vim flashVersion 
+clear
+ll
+clear
+ls
+cd ~
+ls
+cd /home/
+ls
+rm -rf shellwork/
+ks
+ls
+clear
+ll
+cd gowork/
+ls
+cd src/
+ls
+cd ..
+ls
+clear
+cd /
+ls
+cd ~
+ls
+cat goblin.log 
+clear
+ll
+clear
+ls
+tail -10 goblin.
+tail -10 goblin.log 
+ll
+cat goblin.log 
+ls
+cd plugins/
+ls
+cd ..
+ls
+cat qqwry.dat 
+clear
+clell
+ll
+clear
+ll
+ls
+cd static/
+ls
+vim index.html 
+ls
+cd..
+cd ..
+ls
+clear
+ls
+cd [
+cd plugins/
+ls
+cat demo.yaml 
+l
+clear
+ls
+cat demo.yaml 
+clear
+ll
+vim demo.yaml 
+ls
+cd ..
+ls
+cd plugins/
+ll
+vim demo.yaml 
+ll
+cd ..
+ls
+docker ps -a
+docker ps -
+docker ps -a
+docker stop 0795d639f2b3
+docker ps -a
+clear
+docker images
+ll
+docker ps -a
+docker stop 3f280d38af0f
+lls
+ls
+clear
+ll
+ls
+rm -rf ./goblin.*
+ls
+rm -rf plugins/ qqwry.dat static/
+ls
+clear
+ls
+clear
+ls
+clear
+cd /home/gowork/src/
+ls
+cd goblin-demo/
+ls
+cd goblin-demo-flash/
+ls
+vim goblin.yaml cd plugins/
+ls
+cd plugins/
+ls
+vim api.flash.yaml 
+ls
+cd ..
+ls
+cd static/
+ls
+vim index.html 
+ls
+vim alert.html 
+ls
+vim flashVersion 
+ls
+clear
+ls
+cd ..
+ls
+cd plugins/
+ls
+vim flash.yaml 
+vim api.flash.yaml 
+vim soft.flash.yaml 
+clear
+ls
+vim api.flash.yaml 
+ls
+vim flash.yaml 
+vim soft.flash.yaml 
+cd static.flash.yaml 
+vim static.flash.yaml 
+ls
+cd ..
+ls
+./goblin 
+clear
+ls
+cat Dockerfile 
+ll
+clear
+ls
+cat goblin.log 
+clear
+ll
+cd plugins/
+ls
+vim flash.yaml 
+ls
+clear
+ls
+vim flash.yaml 
+ls
+cd ..
+ls
+cd static/
+ls
+vim alert.html 
+cd /home/gowork/src/goblin-demo/goblin-demo-flash/plugins
+ls
+cd ..
+ls
+cat goblin.log 
+ll
+clear
+ll
+cat goblin.log 
+lsc
+cd ..
+l
+ls
+cd ..
+ls
+cd goblin
+ls
+cd ..
+ls
+go build goblin
+cd goblin
+ls
+go build .
+cd ..
+ls
+ccd goblin-demo/
+ls
+cd goblin-demo/
+ls
+cd goblin-demo-flash/
+ls
+mv goblin ../
+ls
+cd ..
+ls
+mv goblin goblin-demo-flash/
+ls
+cd ..
+ls
+cd goblin-demo/
+ls
+cd goblin-demo-flash/
+ls
+cd ..
+ls
+rm -rf goblin.log goblin.yaml plugins/ qqwry.dat static/
+ls
+cd ..
+ls
+cd goblin
+ls
+cd ..
+ls
+cd goblin
+cd ..
+cd goblin-demo/
+ls
+clear
+ll
+cd goblin-demo-flash/
+ls
+vim goblin.yaml 
+ls
+clear
+ll
+clear
+ls
+vim goblin.yaml 
+ls
+./goblin 
+ll
+clear
+ll
+./goblin 
+clear
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd src/
+ls
+clear
+ll
+ls
+rm -rf goblin goblin-demo/
+ls
+clear
+ll
+clear
+cd /home/
+ls
+cd gowork/
+ls
+clear
+ll
+cd src/
+ls
